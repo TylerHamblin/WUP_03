@@ -77,10 +77,6 @@ The family-wise confidence level test shows us exactly where the difference in t
 
 ## Conclusions
 
-
-
-
-
-
+After reviewing the results of the numerical and inferential data, we can confidently say that the Back has consumed more drinks based on their seating when compared to the Front and Middle sections. Whether it be based on the drop in entertainment value towards the back and the substitution with alcohol or some other societal factor, the Back consumed upwards of three times as many drinks. The chance of it being a mere coincidence exists because of a non-zero p-value (0.000116) but because of the insignificance of the number it is safe to assume that seating arrangement does have a direct relationship with the amount of alcohol consumed. We can reject the null hypothesis and confirm the alternative hypothesis that a seating category does have an affect on alcohol consumption. 
 
 
