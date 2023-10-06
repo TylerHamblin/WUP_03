@@ -60,6 +60,14 @@ The numerical display of data shows the average number of drinks for people seat
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+
+
+
 ## Conclusions
 
 
