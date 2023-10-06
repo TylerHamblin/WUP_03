@@ -72,7 +72,7 @@ The one way anova gives us the p-value of about 0.000116 which the small number 
 plot(TukeyHSD(model1))
 ```
 
-
+The family-wise confidence level test shows us exactly where the difference in the data occurs. The biggest distinction in categories is when comparing the Front and Back sections with the Back and Middle comparison being close behind. The Middle and Front comparison has a variation fairly close to zero which suggests the statistical variation does not occur within these two categories. This further proves that the difference occurs because of the Back section as it skews the differences in average drinks consumed far from 0. 
 
 
 ## Conclusions
