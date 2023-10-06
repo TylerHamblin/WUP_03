@@ -23,6 +23,13 @@ $H_0$: The location of seats is not related to the amount of drinks consumed.
 
 ## Methods
 
+```{r}
+davisdata <- davisdata %>%
+mutate(across(where(is.character), as.factor))
+```
+
+This string of code changes all character variables into factor variables. This type of question needs a numerical variable (Alcohol) explained by a factor variable (Seat) which we can use a Num~Cat helper file from the CandP zip to guide us. 
+
 ## Now with ggplot - first select the basic data
 
 ```{r}
