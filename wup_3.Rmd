@@ -48,6 +48,8 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+This fancy box plot displays the three categories for seating which are Front, Middle, and Back as they pertain to alcohol consumption. As it shows the people seated in the back have a median and range much greater than the upper quartile of the Front and Middle sections. Those sitting in the Middle and Front have medians and ranges much closer to 0 beverages consumed whereas the Back has a median of about 4 which an upper end of about 14. It is reasonable to assume that regardless of the outliers, the people seating in the back tend to statistically consume more alcohol than any of the other sectoins.
+
 ## Numerical Summarys 
 
 ## Inferential Tests
