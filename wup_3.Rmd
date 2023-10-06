@@ -52,6 +52,12 @@ This fancy box plot displays the three categories for seating which are Front, M
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+ 
+
 ## Inferential Tests
 
 ## Conclusions
