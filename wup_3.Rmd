@@ -56,7 +56,7 @@ This fancy box plot displays the three categories for seating which are Front, M
 favstats(alcohol~Seat,data=davisdata)
 ```
 
- 
+The numerical display of data shows the average number of drinks for people seated in each section with the Back being the highest wiht about 9.6 drinks. The Front and Middle only consumed about 1.8 and 3.2 drinks on average which is at least three times less than that of the Back. 
 
 ## Inferential Tests
 
