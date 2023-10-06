@@ -65,11 +65,22 @@ model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 
+The one way anova gives us the p-value of about 0.000116 which the small number suggests that there is a statistical difference somewhere within the data set but not exactly where. There is still a posibility of the null hypothesis being true but is extremely unlikely. 
+
+
 ```{r}
 plot(TukeyHSD(model1))
 ```
 
 
+
+
 ## Conclusions
+
+
+
+
+
+
 
 
